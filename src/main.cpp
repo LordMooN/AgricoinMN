@@ -1379,17 +1379,14 @@ else if(nHeight <  YEARLY_BLOCKCOUNT * 2)
     {
         nSubsidy = 5 * COIN;
     }
-else if(nHeight <  YEARLY_BLOCKCOUNT * 2)
-    {
-        nSubsidy = 10 * COIN;
-    }
+
 else if(nHeight <  YEARLY_BLOCKCOUNT * 3)
     {
-        nSubsidy = 5 * COIN;
+        nSubsidy = 2.5 * COIN;
     }
 else if(nHeight <  YEARLY_BLOCKCOUNT * 4)
     {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 1 * COIN;
     }
 else if(nHeight <  YEARLY_BLOCKCOUNT * 5)
     {
